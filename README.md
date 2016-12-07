@@ -1,4 +1,4 @@
-# PN532ExtAntBreakout
+# PN532ExtAntNFCBreakout
 Arduino compatible PN532 breakout board with support for external antenna. Designed with the xNT implantable chip in mind.
 # Why this is here
 I created this project because there was a lack of boards availiable online that featured the pn532 without having a huge internal antenna built in. These antennas arent ideal for use with a chip such as the xNT implantable chip, becasue you can only get a read in the "sweet spots" around the corners or directly on the traces, due to its small size. With this board, you can connect your own external antenna via UFL connector, allowing you to connect antennas that are able to work much better with implantable chips. This board and antenna will allow you to make your xNT projects much more compact and reliable, as well as allowing you to extend the antenna away from the controller using a coax cable.
