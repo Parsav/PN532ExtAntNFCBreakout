@@ -1,7 +1,7 @@
 # PN532ExtAntNFCBreakout
 Arduino compatible PN532 breakout board with support for external antenna. Designed with the xNT implantable chip in mind.
 # Why this is here
-I created this project because there was a lack of boards availiable online that featured the pn532 without having a huge internal antenna built in. These antennas arent ideal for use with a chip such as the xNT implantable chip, becasue you can only get a read in the "sweet spots" around the corners or directly on the traces, due to its small size. With this board, you can connect your own external antenna via UFL connector, allowing you to connect antennas that are able to work much better with implantable chips. This board and antenna will allow you to make your xNT projects much more compact and reliable, as well as allowing you to extend the antenna away from the controller using a coax cable.
+I created this project because there was a lack of boards availiable online that featured the pn532 without having a huge internal antenna built in. These antennas aren't ideal for use with a chip such as the xNT implantable chip, becasue you can only get a read in the "sweet spots" around the corners or directly on the traces. With this board, you can connect your own external antenna via UFL connector, allowing you to connect antennas that are able to work much better with implantable chips. This board and antenna will allow you to make your xNT projects much more compact and reliable, as well as allowing you to extend the antenna away from the controller using a coax cable.
 
 Hopefully this could transform into a board that will help people make better projects to use with their xNT much more easily.
 
@@ -28,6 +28,8 @@ Like I said, this is the first schematic I've made. and even then I barely know 
 The reason I decided not to use the keyduino is the fact that it locks you into using an arduino Leonardo, which isnt inherently bad until you run out of memory. Any decently complicated sketch will fill that puppy up in no time. I decided to switch to the [Teensy 3.5](https://www.pjrc.com/store/teensy35.html) for its extended memory, more IO's, and built in microsd reader. My hope is to make an expansion board that could fit onto the teensy, in order to make compact, flexible, and powerful projects for my xNT transponder. 
 
 However, dont feel like you have to do the same, if you have another layout in mind, go for it, it's all open source so do what you wish.
+
+The board file included here has the original Keyduino circuit laid out already, but its not optimized for a standalone board, just the area it was on the leonardo. I also chopped off the internal antenna and related components, becasue we just need the connector
 
 ## Share Ideas
 This has the possibility of being a very useful tool for anyone who wants to hack together stuff for their xNT, and only you guys know how to make it more useful. Contribute to its design, make it your own.
