@@ -7,7 +7,7 @@ Hopefully this could transform into a board that will help people make better pr
 
 #What it is
 ##The circuits
-The current design is based around (and copied from) The [Keyduino](https://github.com/CITCEuraRFID/KeyDuino), which is a wonderful little board, created by people who said "Fuck NFC shields, lets just build one into an arduino!" This board has been invaluable to me in learning how to make projects using my xNT chip as well as programming it. The antenna that is built into it reads my chip pretty damn well, but its not too ideal for most projects considering you have to basically touch the controller, limiting your enclosure options. It does, however, also have a UFL conenctor on it, for connecting external antennas, which is why I chose to model this design after it.
+The current design is based around (and copied from) The [Keyduino](https://github.com/CITCEuraRFID/KeyDuino), which is a wonderful little board, created by people who said "Fuck NFC shields, lets just build one into an arduino!" This board has been invaluable to me in learning how to make projects using my xNT chip as well as programming it. The antenna that is built into it reads my chip pretty damn well, but its not too ideal for most projects considering you have to basically touch the controller, limiting your enclosure options. It does, however, also have a UFL conenctor on it for connecting external antennas, which is why I chose to model this design after it.
 
 It's based around the [PN532] (https://cdn-shop.adafruit.com/datasheets/pn532ds.pdf) chip, which handles all of the NFC to serial communication, making it compatible with most development boards and DIY electronics.
 
